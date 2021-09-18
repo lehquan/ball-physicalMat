@@ -21,7 +21,7 @@ function App() {
           far={1000}
           makeDefault
         />
-        <OrbitControls autoRotate={true} autoRotateSpeed={.5} enableDamping={true}/>
+        <OrbitControls autoRotate={true} autoRotateSpeed={5} enableDamping={true}/>
       </Canvas>
       <Loader/>
     </div>
